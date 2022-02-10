@@ -9,6 +9,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderSvc-Test", "OrderSvc-T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderSvc-Provider", "OrderSvc-Provider\OrderSvc-Provider.csproj", "{B38BB073-B407-4B27-AF0D-8CC04D36F2CD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{C843EF63-6D9F-451B-9BA8-18B264AF80AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderProviderTests", "OrderProviderTests\OrderProviderTests.csproj", "{BD0499B6-DDFD-418B-B189-A8121199AB4E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,9 +31,17 @@ Global
 		{B38BB073-B407-4B27-AF0D-8CC04D36F2CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B38BB073-B407-4B27-AF0D-8CC04D36F2CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B38BB073-B407-4B27-AF0D-8CC04D36F2CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD0499B6-DDFD-418B-B189-A8121199AB4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD0499B6-DDFD-418B-B189-A8121199AB4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD0499B6-DDFD-418B-B189-A8121199AB4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD0499B6-DDFD-418B-B189-A8121199AB4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{205A7185-549D-4BF2-B56F-7C37A12BE78F} = {C843EF63-6D9F-451B-9BA8-18B264AF80AF}
+		{BD0499B6-DDFD-418B-B189-A8121199AB4E} = {C843EF63-6D9F-451B-9BA8-18B264AF80AF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {28140D5B-504E-475B-B3B5-B3BA41E8256B}
