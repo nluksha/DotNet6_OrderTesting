@@ -1,2 +1,2 @@
 # DotNet6_OrderTesting
-.Net6 PackNet
+.Net6 PactNet
